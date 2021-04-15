@@ -1,15 +1,15 @@
 package com.sogrey.math3
 
 class Color {
-    var r:Number=0
-    var g:Number=0
-    var b:Number=0
+    var r: Number = 0
+    var g: Number = 0
+    var b: Number = 0
 
     constructor(r: Number, g: Number?, b: Number?) {
-        if ( g ==null && b ==null ) {
+        if (g == null && b == null) {
 
             // r is THREE.Color, hex or string
-            return this.set( r );
+            return this.set(r);
 
         }
 

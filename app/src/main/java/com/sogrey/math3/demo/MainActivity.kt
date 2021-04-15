@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
 
         var vec2 =  Vector2()
 
-        vec2.x = 10
+        vec2.x = 10.0
     }
 }

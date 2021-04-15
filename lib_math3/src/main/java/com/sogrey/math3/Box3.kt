@@ -1,8 +1,8 @@
 package com.sogrey.math3
 
 class Box3 constructor(min: Vector3, max: Vector3) {
-    var min: Vector3 =  Vector3()
-    var max: Vector3=  Vector3()
+    var min: Vector3 = Vector3()
+    var max: Vector3 = Vector3()
 
     init {
         this.min = min
