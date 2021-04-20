@@ -15,6 +15,17 @@ class Vector2 constructor(x: Double? = 0.0, y: Double? = 0.0) {
         return this
     }
 
+    /**
+     * 判断传入的 number 是什么数据类型
+     */
+    fun checkNumber(num: Number) {
+        when (num) {
+            is Int -> println("number is Int")
+            is Double -> println("number is Double")
+            else -> println("number not support")
+        }
+    }
+
     fun clone(): Vector2 {
         return Vector2(this.x, this.y)
     }
